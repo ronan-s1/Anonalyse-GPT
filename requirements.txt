@@ -1,0 +1,7 @@
+langchain
+numpy
+openai
+pandas
+prettytable
+openapi-schema-pydantic
+streamlit
