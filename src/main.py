@@ -3,7 +3,7 @@ from langchain.llms import OpenAI
 import pandas as pd
 import numpy as np
 import os
-from dotenv import load_dotenv
+from dotenv import find_dotenv, load_dotenv
 import random
 import string
 from prettytable import PrettyTable
@@ -71,7 +71,7 @@ def deanonymise_output(output, column_mapping):
 
 def main(column_mapping, fake_df, user_input):
     # API key
-    load_dotenv()
+    load_dotenv(find_dotenv())
     os.environ["OPENAI_API_KEY"] = os.environ.get("KEY")
     
     custom_template = """

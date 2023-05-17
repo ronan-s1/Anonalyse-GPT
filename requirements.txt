@@ -5,3 +5,4 @@ pandas
 prettytable
 openapi-schema-pydantic
 streamlit
+python-dotenv
