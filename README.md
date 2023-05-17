@@ -25,3 +25,8 @@ pip install -r requirements.txt
 ```py
 streamlit run src/app.py
 ```
+
+## Example
+
+<img width="600" alt="image" src="https://github.com/ronan-s1/Anonalyse-GPT/assets/85257187/8dc88508-883d-4e53-82f8-c1b009b947e9">
+
