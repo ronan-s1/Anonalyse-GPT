@@ -2,8 +2,6 @@
 
 ## Description
 
-This was a project made for a hack day.
-
 Anonalyse-GPT is a powerful tool for data analysis tasks where privacy and data confidentiality are crucial. By working with fake data and anonymized column names, users can explore and analyze data without exposing sensitive information.
 
 You can see what the AI is doing by looking at your terminal.
